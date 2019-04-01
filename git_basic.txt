@@ -1,4 +1,9 @@
-# commands for configuring git
+# create a github account at github.com
+# note down the username and email id
+
+# commands for configuring git on your system
+# provide the same username and email id you used to signup for github
+
 git config --global user.name <your username>
 git config --global user.mail <your email>
 
