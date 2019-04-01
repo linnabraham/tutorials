@@ -1,0 +1,35 @@
+# commands for configuring git
+git config --global user.name <your username>
+git config --global user.mail <your email>
+
+git init <directoryname>	# initialise a new git repository
+cd <directoryname> 		# change directory to the git repo
+
+# connect the github repository with your local repo 
+git remote add origin <github repo name>
+
+git remote -v 			# to check which are the remotes currently attached
+
+# create some files on your own
+
+# to track those files
+git add filename
+
+git commit -m "your msg"	# commit your changes with a message
+
+git push -u origin master	# for the first push
+git push			# push your further changes to the remote (github) repo
+
+# if changes are made from somewhere else to your remote repository
+# you need to pull those changes to your local repo
+
+git pull
+
+# other commands 
+git status 			# get info about your repo
+git ls-files			# list files inside your repo
+
+As a working example clone the repo containing this file.
+
+git clone https://github.com/linnabraham/tutorials
+
