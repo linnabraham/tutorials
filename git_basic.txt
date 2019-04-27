@@ -1,5 +1,10 @@
+--------------------
+Initial configuraton
+--------------------
+
 # create a github account at github.com
 # note down the username and email id
+# create a new public or private repository on github and note down the address
 
 # commands for configuring git on your system
 # provide the same username and email id you used to signup for github
@@ -11,9 +16,14 @@ git init <directoryname>	# initialise a new git repository
 cd <directoryname> 		# change directory to the git repo
 
 # connect the github repository with your local repo 
-git remote add origin <github repo name>
+git remote add origin <github repo address>
 
 git remote -v 			# to check which are the remotes currently attached
+
+-------------
+An alternate way to set up a git repository with a remote repository on github is to just create and initialise the repo on the github 
+website and clone it to your disk
+-------------
 
 # create some files on your own
 
@@ -37,4 +47,11 @@ git ls-files			# list files inside your repo
 As a working example clone the repo containing this file.
 
 git clone https://github.com/linnabraham/tutorials
+
+--------------
+More advanced usage
+--------------
+
+If you are editing a particular file and you are think of discarding all the changes (in the working directory) and get back the version that you had committed last, use:
+git checkout -- <filename>
 
