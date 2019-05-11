@@ -17,3 +17,15 @@ $ git reset --soft 0ad5a7a6
 You'll be left with a couple of changes in your working copy and can then decide what to do with them.
 
 --------
+
+How to undo the "git add" operation ?
+
+git reset <file> 
+
+to undo a single add 
+
+git reset
+
+to undo all changes made to the staging area.
+
+--------
