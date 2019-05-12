@@ -1,0 +1,27 @@
+# to make symbolic links on linux
+# use without trailing / 
+ln -s <existing file> <link name>
+
+May 01 2019
+
+# to execute the last line in history starting with "ex"
+!ex 
+
+# to use the commandline as a quick calculator
+install apcalc and use calc function
+
+# to avoid accidently deleting folders recursively 
+alias rm='rm -i'
+
+# to randomly subsample a directory with lot of images
+find DATA/NonRings/ | shuf -n 3500 | xargs cp -t subDATA/NonRings/
+
+# to solve the bash completion problem when dealing with large number of files
+for f in *.png; do rm "$f"; done
+
+# in order to compare two images side 
+use the imgdiff python package 
+
+# using scp to copy files from a remote server to the local machine
+# can also be used in reverse to copy from local machine to server by inter changing position of arguments
+scp user@localhost:/path/to/source /local/path/to/destination
