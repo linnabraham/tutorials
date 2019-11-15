@@ -1,6 +1,0 @@
-# change figure size globally for notebook
-plt.rcParams['figure.figsize'] = (16,8)
-
-# string formatting with number of decimals specified
-{:.2f} - 2 decimal places
-
