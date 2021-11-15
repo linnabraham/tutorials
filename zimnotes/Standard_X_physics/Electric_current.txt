@@ -1,0 +1,77 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-04-13T20:00:08+05:30
+
+====== Electric current ======
+Created Saturday 13 April 2019
+
+What is electricity? Where can you see the effects of electric current in nature? 
+What is meant by an electric current? Differentiate between static electricity and current electricity.
+How does current flow in a circuit? What do you mean by electric potential and potential difference? 
+What is a short circuit? Electric current chooses the path of least resistance.
+What is the equation defining electric current. What is the unit?  
+What is meant by a conductor of electricity? List some of the good and bad conductors, and insulators.
+What is meant by electrical resistance? List the resistance of commons objects found in nature.
+Where is electricity produced and how is it transmitted to our homes?
+State Ohm's law.
+*What are the factors on which the resistance of an object depends on? Motivate.
+*Explain the concept of power. Identify the different sources of power around you.
+*Derive the formula for the power in terms of the current and voltage.
+*State Joule's law of heating.
+List the different types of lighting devices in and around your house. 
+--------------------
+State the lighting effects of electricity.
+What are the qualities desirable for heating coils? 
+What is the resistance of the human body? (measure)
+--------------------
+Answers
+
+What is electricity?
+Electricity is a form of energy that powers many of the equipments seen in daily life. 
+
+Where can you see the effects of electric current in nature? 
+lightning, nerve impulses, static electricity, ECG and EEG.
+
+How does current flow in a circuit? 
+From a region of high concentration (potential) to a region of low potential. 
+It needs a closed path.
+What is a short circuit? Electric current chooses the path of least resistance.
+
+Joule's law
+The heat generated in a current carrying conductor is the product of the square of the current in the conductor, the 
+resistance of the conductor and the time of flow of current.
+
+The different types of lighting devices which use electricity
+1. Incandescent lamps
+2. Discharge lamps
+3. Fluorescent lamps
+4. compact fluorescent lamps
+5. LED lamps
+6. Arc lamps
+
+__Thus electrical energy is the energy of flowing charges (current). When electricity flows through a wire, heat is produced as a result of the resistance. Light is produced both due to heating and due to discharge. In semiconductor devices such as diodes, light is produced in a different way.__
+
+--------------------
+Applications
+
+What is the purpose of a regulator in electrical appliances? 
+__*Explain the working of a safety fuse.__
+List the different types of lighting sources seen in daily life.
+ - halogen lamps, neon lamps, led, cfl, tungsten bulb, sodium vapour lamp,
+
+--------------------
+Activity 
+Use dimmer switch see varying light intensity in a bulb. 
+Note down the voltage, amperage and power of common devices.
+Use a digital voltmeter to measure voltages.
+
+
+--------------------
+How does the human body produce energy from the food we eat?
+Universal law of gravitation
+Coloumb's law and the concept of free electrons and positive ions.
+What is meant by combustion ? 
+
+Usage of 'per unit ' and 'of unit' in definitions:
+Power is the work done per unit interval of time.
+Resistivity is the resistance of a conductor of unit length and unit area of cross section. 

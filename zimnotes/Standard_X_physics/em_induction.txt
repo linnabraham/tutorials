@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-04-24T18:05:00+05:30
+
+====== em induction ======
+Created Wednesday 24 April 2019
+
+EM induction in daily life
+1. How is electricity generated in power stations?
+2. working of dynamos in vechicles.
+3. diesel generators
+4. induction cookers
+
+--------------------
+What do you mean by the magnetic effect of electricity? Is there a symmetric effect for magnets?
+State the principle of electromagnetic induction.
+Design a simple experiment to demonstrate em induction. What are the factors on which the magnitude and direction of the induced electric current depend?
+State the flemings right hand rule.
+Differentiate between AC (produced due to induction) and DC.
+Explain the working of an AC generator.
+Explain single phase and three phase generators.
+Explain the working of a moving coil microphone.
+What is meant by the mutual induction of two coils? What is meant by the primary and secondary coil?
+What happens if a soft iron core is introduced between the two coils?
+What is the purpose of a transformer ? 
+State the relation connecting the voltages and number of turns of the primary and secondary windings of a tranformer.
+What is meant by the self induction of a coil?
+List the places where electromagnetic induction is used to generate electricity in daily life.

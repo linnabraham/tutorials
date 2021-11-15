@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-06-02T21:36:30+05:30
+
+====== PythonBasics ======
+Created Sunday 02 June 2019
+
+What are constants in python?
+What is meant by a variable in python?
+List some of the datatypes in python.
+List some of the data structures supported by python.
+What are the uses of loops or looping constructs in python?
+In what way are indentations important in python?
+How are lists defined in python?

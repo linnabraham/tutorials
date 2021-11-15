@@ -1,0 +1,214 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-12-09T08:29:55+05:30
+
+====== statistics ======
+Created Saturday 09 December 2017
+
+Chapter 30. Riley,Hobson
+[30.7] **Generating functions**
+As we saw in chapter 16, when dealing with particular sets of functions fn, each member of the set being characterised by a different non-negative integer n, it is sometimes possible to summarise the whole set by a single function of a dummy variable (say t), called a generating function.  The relationship between the generating function and the nth member fn of the set is that if the generating
+function is expanded as a power series in t then fn is the coefficient of tn. We found that many useful properties of, and relationships between, the members of a set of functions could be established using the generating function and other functions obtained from it, e.g. its derivatives.
+
+Similar ideas can be used in the area of probability theory, and two types of generating function can be usefully defined, one more generally applicable than the other. The more restricted of the two, applicable only to discrete integral distributions, is called a probability generating function;
+
+30.7.1 **Probability generating functions**
+probability generating functions are restricted in applicability to integer distributions, of which the most common (the binomial, the Poisson and the geometric) are considered in this and later subsections. In such distributions a random variable may take only non-negative integer values. 
+
+30.8.4 **The Poisson distribution**
+We have seen that the binomial distribution describes the number of successful outcomes in a certain number of trials n. The Poisson distribution also describes the probability of obtaining a given number of successes but for situations in which the number of ‘trials’ cannot be enumerated; rather it describes the situation in which discrete events occur in a continuum.
+
+[Riley Hobson Sec 30.9.1] **The Gaussian distribution** 
+The width of the curve is described by the standard deviation σ: if σ is large then the curve is broad, and if σ is small then the curve
+is narrow. The effects of changing µ and σ are only to shift the curve along the x-axis or to broaden or narrow it, respectively. Thus all Gaussians are equivalent in that a change of origin and scale can reduce them to a standard form. 
+We therefore consider the random variable Z = (X − µ)/σ, for which the PDF takes the form which is called the standard Gaussian distribution and has mean µ = 0 and variance σ2 = 1. The random variable Z is called the standard variable.
+
+**Gaussian approximation to the binomial distribution**
+We may consider the Gaussian distribution as the limit of the binomial distribution when the number of trials n → ∞ but the probability of a success p remains finite, so that np → ∞ also. In other words, a Gaussian distribution results when an experiment with a finite probability of success is repeated a large number of times. 
+
+The binomial probability function gives the probability of x successes in n trials as
+f(x) = (n! /x!(n − x)! ) p^x(1 − p)^n−x.
+Taking the limit as n → ∞ (and x → ∞) we may approximate the factorials by
+
+**Stirling’s approximation**
+n! ∼ √(2πn)(n/e)^n
+
+Thus we see that the value of the Gaussian probability density function f(x) is a good approximation to the probability of obtaining x successes in n trials. This approximation is actually very good even for relatively small n.
+
+**Gaussian approximation to the Poisson distribution**
+We first met the Poisson distribution as the limit of the binomial distribution for n → ∞ and p → 0, taken in such a way that np = λ remains finite. Further, in the previous subsection, we considered the Gaussian distribution as the limit of the binomial distribution when n → ∞ but p remains finite, so that np → ∞ also. It should come as no surprise, therefore, that the Gaussian distribution can also be used to approximate the Poisson distribution when the mean λ becomes large.
+
+
+--------------------
+
+Chap 31. Riley Hobson
+
+We may regard the outcome of any experiment as a set of N measurements of some quantity x. This set of measurements constitutes the data. 
+As a result of inaccuracies in the measurement process, or because of intrinsic variability in the quantity x being measured, one would expect the N measured values x1, x2, . . . , xN to be different each time the experiment is performed.
+
+We may therefore consider the xi as a set of N random variables. 
+
+...
+
+It is often the case, however, that each sample value xi is drawn independently from the same population.
+In this case, P(x) is of the form 
+P(x) = P(x1)P(x2) · · · P(xN).
+but, in addition, P(xi) has the same form for each value of i. 
+
+The measurements x1, x2, . . . , xN are then said to form a random sample of size N from the one-dimensional
+population P(x). 
+
+Suppose we have a set of N measurements x1, x2, . . . , xN. Any function of these measurements (that contains no unknown parameters) is called a sample statistic, or often simply a statistic. Sample statistics provide a means of characterising the
+data.
+
+
+--------------------
+
+**Averages**
+
+Arithmetic mean
+Geometric mean
+Harmonic mean
+Root mean square
+
+
+Two other measures of the ‘average’ of a sample are its mode and median. The mode is simply the most commonly occurring value in the sample. A sample may possess several modes, however, and thus it can be misleading in such cases to use the mode as a measure of the average of the sample.
+
+The median of a sample is the halfway point when the sample values xi (i = 1, 2, . . . , N) are arranged in ascending (or descending) order. Clearly, this depends on whether the size of the sample, N, is odd or even. 
+
+If N is odd then the median is simply equal to x(N+1)/2, whereas if N is even the median of the sample is usually taken to be
+1/2 (xN/2 + x(N/2)+1)
+
+**Variance and standard deviation**
+
+Gives a measure of the spread of the values about the sample mean.
+
+**31.2.3 Moments and central moments**
+By analogy with our discussion of probability distributions in section 30.5, the sample mean and variance may also be described respectively as the first moment and second central moment of the sample.
+
+
+31.2.4 **Covariance and correlation**
+
+We may calculate the sample means, x' and y', and sample variances, s^2_x and s^2_y
+By analogy with our discussion in subsection 30.12.3 
+we measure any interdependence between the xi and yi in terms of the **sample covariance**
+{{./pasted_image.png?width=250}}  
+We may also define the closely related **sample correlation** by
+
+r_xy = V_xy/s_x.s_y
+	which can take values between −1 and +1. 
+
+31.3 **Estimators and sampling distributions**
+In general, the population P (x) from which a sample x1, x2, . . . , xN is drawn is unknown. The central aim of statistics is to use the sample values xi to infer certain properties of the unknown population P (x), such as its mean, variance and higher moments. 
+
+
+**Gaussian distribution (Normal distribution)**
+
+Probabillity Law	
+1/σ (2π)^1/2 exp( -(x-μ/√2σ)^2 )
+
+E[x] = μ
+V[x] = σ^2
+
+The 1/2π factor arises from the normalisation. The Gaussian distribution is symmetric about the point x = µ. The width of the curve is described by the standard deviation σ
+
+__For a normal distribution, median = mode = mean__
+
+**Standard Gaussian distribution**
+
+The effects of changing µ and σ are only to shift the curve along the x-axis or to broaden or narrow it, respectively. Thus all Gaussians are equivalent in that a change of origin and scale can reduce them to a standard form. We therefore consider the random variable 
+Z = (X − µ)/σ, for which the PDF takes the form
+
+φ(z) = 1/(2π)^1/2 exp(-z^2/2)
+
+which is called the standard Gaussian distribution and has mean µ = 0 and variance σ2 = 1. 
+
+--------------------
+The RMS value can be defined for a continously varying function in terms of an integral of the squares of the instantaneous values during a cycle.
+
+**Sinusoidal Functions**
+
+The average value of a sinusoidal function over a complete cycle is 0. Whereas the average value of a sine(or cosine) squared function over a complete cycle is 1/2. 
+
+sin^2 + cos^2 = 1
+Since over a complete cycle, average of sine and cosine functions are equal.
+
+<sin^2> = <cos^2> = 1/2
+
+The average value of the square of a  function of the form, E= E_o cos x 
+is given by <E^2> = E_o^2/2 
+
+Then the rms value is just the square root, hence
+<E^2> ^1/2 = __E_rms =  E_o/(2^1/2)__
+
+--------------------
+
+30.4 **Random variables and distributions**
+Suppose an experiment has an outcome sample space S. A real variable X that is defined for all possible outcomes in S (so that a real number – not necessarily unique – is assigned to each possible outcome) is called a random variable (RV).
+...Furthermore, assuming that a probability can be assigned to all possible outcomes in a sample space S, it is possible to assign a probability distribution to any random variable.
+
+If X is a discrete random variable, we can define a probability function (PF) f(x) that assigns probabilities to all the distinct values that X can take.
+
+such that
+f(x) = Pr(X = x) = {pi,  if x = xi
+					  0,  otherwise
+
+30.4.3 **Sets of random variables**
+We simply note here that if we have (say) two random variables X and Y then by analogy with the singlevariable case we define their joint probability density function f(x, y) in such a way that, if X and Y are discrete RVs,
+	Pr(X = xi, Y = yj) = f(xi, yj),
+
+or, if X and Y are continuous RVs,
+Pr(x < X ≤ x + dx, y < Y ≤ y + dy) = f(x, y) dx dy.
+
+
+In many circumstances, however, random variables do not depend on one another, i.e. they are independent. As an example, for a person drawn at random from a population, we might expect height and IQ to be independent random variables.
+Let us suppose that X and Y are two random variables with probability density functions g(x) and h(y) respectively. In mathematical terms, X and Y are independent RVs if their joint probability density function is given by f(x, y) = g(x)h(y).
+
+The important point in each case is that the RHS is simply the product of the individual probability density functions (compare with the expression for Pr(A∩B) in (30.22) for statistically independent events A and B).
+
+30.11 **Joint distributions**
+it is common in the physical sciences to consider simultaneously two or more random variables that are not independent,
+in general, and are thus described by joint probability density functions. 
+We will concentrate mainly on bivariate distributions, i.e. distributions of only two random variables, though the results may be extended readily to multivariate distributions. 
+
+30.11.3 **Marginal and conditional distributions**
+Given a bivariate distribution f(x, y), we may be interested only in the probability function for X irrespective of the value of Y (or vice versa). This marginal
+distribution of X is obtained by summing or integrating, as appropriate, the
+joint probability distribution over all allowed values of Y . 
+
+Alternatively, one might be interested in the probability function of X given that Y takes some specific value of Y = y0,
+ i.e. Pr(X = x|Y = y0). 
+This conditional distribution of X is given by g(x) = f(x, y0)/fY (y0) ,
+where fY (y) is the marginal distribution of Y . The division by fY (y0) is necessary in order that g(x) is properly normalised.
+
+30.12 Properties of joint distributions
+The probability density function f(x, y) contains all the information on the joint probability distribution of two random variables X and Y . In a similar manner to that presented for univariate distributions, however, it is conventional to characterise f(x, y) by certain of its properties.Once again, most of these properties are based on the concept of expectation values,
+which are defined for joint distributions in an analogous way to those for singlevariable distributions (30.46).  
+i. Means
+ii. Variances
+
+30.12.3 **Covariance and correlation**
+
+We will show in this section that two functions, the covariance and the correlation, can be defined for a bivariate distribution and that these are useful in characterising the relationship between the two random variables.
+
+The covariance of two random variables X and Y is defined by
+Cov[X, Y ] = E[(X − µX)(Y − µY )], (30.133)
+where µX and µY are the expectation values of X and Y respectively.
+Clearly related to the covariance is the correlation of the two random variables, defined by
+Corr[X, Y ] = Cov[X, Y ] / σXσY, 	 (30.134)  
+	where σX and σY are the standard deviations of X and Y respectively. 
+It can be shown that the correlation function lies between −1 and +1.
+
+If the value assumed is negative, X and Y are said to be negatively correlated, if it is positive they are said to be positively correlated and if it is zero they are said to be uncorrelated.
+
+One particularly useful consequence of its definition is that the covariance of two independent variables, X and Y , is zero. It immediately follows from (30.134) that their correlation is also zero, and this justifies the use of the term ‘uncorrelated’ for two such variables. 
+ It is important to note that the converse of this result is not necessarily true; two variables dependent on each other can still be uncorrelated.
+
+For several variables Xi, i = 1, 2, . . . , n, we can define the symmetric (positive definite) covariance matrix whose elements are
+Vij = Cov[Xi, Xj], (30.139)
+and the symmetric (positive definite) correlation matrix
+ρij = Corr[Xi, Xj].
+The diagonal elements of the covariance matrix are the variances of the variables, whilst those of the correlation matrix are unity.
+
+
+--------------------
